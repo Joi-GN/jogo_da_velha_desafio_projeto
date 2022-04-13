@@ -9,12 +9,14 @@ body{
     font-family: Verdana;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    gap: 25px;
+    justify-content: center;
     text-align: center;
 }
 
 h1{
     font-size: 40px;
-    margin: 10px 0;
 }
 
 .quadrado{
@@ -23,13 +25,13 @@ h1{
     display: inline-block;
     font-size: 50px;
     margin: 5px;
-    padding: 25px;
-    width: 40px;
+    padding: 35px;
+    width: 50px;
 }
 
-.div-jogador, .div-vencedor{
-    font-size: 30px;
-    margin: 10px 0;
+#jogador{
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 button{
