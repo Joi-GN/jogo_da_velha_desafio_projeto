@@ -106,8 +106,9 @@ function gameOver(quad) {
 
 function reiniciar() {
     vencedor = null;
+    listaQuadradosPreenchidos = [];
 
-    for (let i = 1; i <= 9; i++) {
+    for (let i = 1; i <= quadrados.length; i++) {
         let quadrado = document.getElementById(i);
         quadrado.innerHTML = '-';
         quadrado.style.background = '#eee';
