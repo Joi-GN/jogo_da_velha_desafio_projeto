@@ -34,7 +34,7 @@ function escolheQuadrado() {
 
 function mudarJogador(valor) {
     jogador = valor;
-    jogadorAtual.innerHTML = `Vez do jogador: ${jogador}`;
+    jogadorAtual.innerHTML = `Vez do jogador ${jogador}`;
 }
 
 function checarVencedor() {
@@ -101,7 +101,7 @@ function mudarCorQuadrado(quad1, quad2, quad3) {
 
 function gameOver(quad) {
     vencedor = quad;
-    jogadorAtual.innerHTML = `🏆 Vencedor foi ${quad.innerHTML} 🏆 <br> <button onclick="reiniciar()">Jogar Novamente</button>`;
+    jogadorAtual.innerHTML = `🏆 O vencedor foi ${quad.innerHTML} 🏆 <br> <button onclick="reiniciar()">Jogar Novamente</button>`;
 }
 
 function reiniciar() {
