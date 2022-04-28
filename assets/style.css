@@ -9,8 +9,6 @@ body{
     font-family: Verdana;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100%;
     gap: 25px;
     justify-content: center;
     text-align: center;
@@ -46,10 +44,8 @@ button{
 
 footer{
     display: flex;
-    background-color:#003130;
     align-items: center;
     justify-content: center;
-    height: 3em;
     gap: 4em;
     width: 100%;
 }
